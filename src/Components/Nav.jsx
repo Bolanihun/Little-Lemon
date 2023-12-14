@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import Logo from "../assets/Logo.png";
 
 export default function Nav() {
-
-    return (
-        <>
-        <nav>
-            <ul>
-                <li className='logo'>
-                <img src={Logo} alt="Little lemon Logo" srcset="" />
-                </li>
+  return (
+    <>
+      <nav>
+        <ul>
+          <li className="logo">
+            <img src={Logo} alt="Little lemon Logo" srcset="" />
+          </li>
           <li className="Links">
             <Link to="/">Home</Link>
             <Link to="/">About</Link>
@@ -22,8 +21,7 @@ export default function Nav() {
         </ul>
       </nav>
 
-
-        </>
-    )
-
+      <Outlet/>
+    </>
+  );
 }
