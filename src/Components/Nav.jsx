@@ -12,10 +12,15 @@ export default function Nav() {
                 <li className='logo'>
                 <img src={Logo} alt="Little lemon Logo" srcset="" />
                 </li>
-                
-
-            </ul>
-        </nav>
+          <li className="Links">
+            <Link to="/">Home</Link>
+            <Link to="/">About</Link>
+            <Link to="/">Menu</Link>
+            <Link to="/">Reservations</Link>
+            <Link to="/">Order online</Link>
+          </li>
+        </ul>
+      </nav>
 
 
         </>
