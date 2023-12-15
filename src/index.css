@@ -135,8 +135,10 @@ button:focus-visible {
 .Menu {
   padding: 40px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  gap: 60px;
 }
 
 .Menu-header {
@@ -145,23 +147,39 @@ button:focus-visible {
   justify-content: space-between;
   gap: 120px;
 }
+
+.Menu-header h3 {
+  width: 399px;
+  color: #333;
+  font-family: "Markazi Text", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .Menu-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 36px;
 }
 
 .Menu-card {
+  background: #edefee;
+  border-radius: 16px 16px 0px 0px;
   display: flex;
   flex-direction: column;
 }
 .card-img img {
   width: 265px;
   height: 186px;
+  border-radius: 16px 16px 0px 0px;
   flex-shrink: 0;
 }
 
 .card-content {
+  padding: 16px;
 }
 .card-header {
   display: flex;
@@ -187,11 +205,10 @@ button:focus-visible {
   font-weight: 700;
   line-height: normal;
 }
-.card-text,
-.card-content {
+.card-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
 }
@@ -218,4 +235,49 @@ button:focus-visible {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+/*FOOTER*/
+footer {
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.footer-logo img {
+  width: 162px;
+  height: 279px;
+  flex-shrink: 0;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link h4 {
+  color: #495e57;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer-link li {
+  list-style: none;
+  color: #333;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 26px */
 }

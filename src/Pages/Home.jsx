@@ -26,6 +26,7 @@ export default function Home() {
       </section>
 
       <Menu/>
+      <Footer/>
     </>
   );
 }
