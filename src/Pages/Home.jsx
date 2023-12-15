@@ -1,5 +1,8 @@
 import React from "react";
-import Img from "../assets/restauranfood.jpg"
+import Img from "../assets/restauranfood.jpg";
+import Menu from "../Components/Menu";
+import Footer from "../Components/Footer";
+
 
 export default function Home() {
   return (
@@ -21,6 +24,8 @@ export default function Home() {
         </div>
         </div>
       </section>
+
+      <Menu/>
     </>
   );
 }
