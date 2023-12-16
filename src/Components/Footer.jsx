@@ -22,13 +22,13 @@ export default function Footer() {
             <ul className="footer-link">
               <h4>Contact</h4>
               <li>Address</li>
-              <li>Phone Number</li>
+              <li>Phone No</li>
               <li>Email</li>
             </ul>
             <ul className="footer-link">
-              <h4>Social Media Links</h4>
+              <h4>Socials</h4>
               <li>Address</li>
-              <li>Phone Number</li>
+              <li>Phone No</li>
               <li>Email</li>
             </ul>
           </div>

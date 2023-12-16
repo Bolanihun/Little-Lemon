@@ -54,7 +54,7 @@ li a {
 
 .Hero-wrapper {
   width: 100%;
-  height: 406px;
+  height: 506px;
   background: #495e57;
 }
 .Hero {
@@ -68,27 +68,37 @@ li a {
 .Hero-content {
   display: flex;
   flex-direction: column;
-  gap: -8px;
+  gap: 8px;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  gap: -24px;
 }
 
 .Hero-content h3 {
   color: #f4ce14;
   font-family: "Markazi Text", serif;
   margin: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  height: 80px;
   font-size: 64px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
-.Hero-content h3 span {
+.Hero-content span {
   color: #fff;
   font-size: 32px;
+  margin-top: 0%;
 }
 .Hero-content P {
   width: 447px;
   height: 79px;
   flex-shrink: 0;
+  margin-top: 0%;
   color: #fff;
   font-family: "Karla", sans-serif;
   font-size: 18px;
@@ -145,7 +155,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 120px;
+  gap: 200px;
 }
 
 .Menu-header h3 {
@@ -239,13 +249,14 @@ button:focus-visible {
 
 /*FOOTER*/
 footer {
+  padding: 32px;
 }
 
 .footer-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 120px;
+  
 }
 
 .footer-logo img {
@@ -257,7 +268,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 56px;
+  gap: 24px;
 }
 
 .footer-link {

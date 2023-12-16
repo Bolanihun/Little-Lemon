@@ -10,9 +10,13 @@ export default function Home() {
       <section className="Hero-wrapper">
         <div className="Hero">
         <div className="Hero-content">
-          <h3 className="title">
-            Little Lemon <br /> <span>Chicago</span>
+          <div className="title">
+          <h3>
+            Little Lemon
           </h3>
+          <span>Chicago</span>
+          </div>
+          
           <p>
             We are a family owned Mediterranean restaurant, Focused on
             traditional recipes served with a modern twist
